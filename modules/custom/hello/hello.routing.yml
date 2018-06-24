@@ -1,0 +1,8 @@
+hello.currenttime:
+  path: '/hello'
+  defaults:
+    _controller: 'Drupal\hello\Controller\HelloController::content'
+    _title: 'Hello world'
+    name: 'there'
+  requirements:
+    _permission: 'access content'

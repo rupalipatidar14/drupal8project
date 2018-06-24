@@ -1,0 +1,6 @@
+hello.currenttime_user:
+  title: 'Current Time'
+  description: 'Return Current time when path is accessed'
+  parent: main
+  menu_name: main
+  route_name: hello.currenttime
